@@ -1,0 +1,82 @@
+.diary_title {
+    flex:1;
+    border:1px solid #dedede;
+    display: flex;
+    position:absolute;
+    height:4rem;
+}
+.today_box {
+    flex:0.2;
+    padding:10px;
+    text-align: center;
+    font-family: 'TmonMonsori';
+    color:#3B87AB;
+}
+.date_box {
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.date {
+    font-family: 'TmonMonsori';
+    text-align: center;
+    flex: 0 0 2em;
+    cursor: pointer;
+}
+.color_red {
+    color:red;
+}
+.color_blue {
+    color:blue;
+}
+.diary_box {
+    flex:1;
+    font-family: 'Ainmom';
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position:absolute;
+    margin-top:5rem;
+    top: 70px;
+    left: 235px;
+    right: 105px;
+    bottom: 30px;
+}
+.diary {
+    flex:1;
+    border:1px solid #dedede;
+    margin:1em;
+    padding: 10px 0;
+}
+.diary_date {
+    padding:10px;
+    font-size:18px;
+}
+.diary_text {
+    flex:1;
+    text-align: center;
+    font-size:23px;
+    margin:1rem;
+}
+.diary_secret {
+    display: flex;
+    justify-content: center;
+}
+.secret_button {
+    margin-top:1rem;
+    font-size:15px;
+    text-align: center;
+    background-color:white;
+    color:white;
+    padding:10px;
+    cursor: pointer;
+    transition: none;
+    border:none;
+}
+.secret_button:hover {
+    background-color:#3B87AB;
+}
+#hidden_diary {
+    display:none;
+}

@@ -1,0 +1,51 @@
+.visit_container {
+    overflow: auto;
+    position:absolute;
+    top:70px;
+    left:250px;
+    right:110px;
+    bottom:50px;
+}
+.visit {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'DOSGothic';
+}
+.visit_title {
+    flex:0 0 1.5rem;
+    padding:0.5rem;
+    margin:0.5rem;
+    background-color: #dfdada;
+    text-align: center;
+}
+.visit_box {
+    flex:0.6;
+    display: flex;
+    margin:1rem 0 ;
+}
+.visit_profile {
+    flex:0 0 9rem;
+    height:8rem;
+    margin:0.5rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit_profile > img {
+    width:80%;
+}
+.visit_text {
+    flex:0 0 19.5em;
+    padding:1rem;
+}
+.profile1 {
+    background-image: url(./images/명수옹1.jpg);
+}
+.profile2 {
+    background-image: url(./images/명수옹2.jpg);
+}
+.profile3 {
+    background-image: url(./images/명수옹3.jpg);
+}

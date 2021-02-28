@@ -1,0 +1,51 @@
+/* board_box 부분 */
+.box_title {
+    border-bottom: 1px solid gray;
+}
+.news_box {
+    flex:0 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+.news_update {
+    flex:1;
+}
+.news_total {
+    flex:1;
+}
+.news_row {
+    display: flex;
+    margin:3px 0;
+}
+.news_item {
+    padding: 0 6px;
+    color:white;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+.item1 {
+    background-color: rgb(161, 80, 80);
+}
+.item2 {
+    background-color: rgb(231, 199, 150);
+}
+.menu_row {
+    display:flex;
+    border-bottom: 1px dashed gray;
+    margin:3px 0;
+}
+.menu_item {
+    flex:1;
+}
+.menu_num {
+    color:gray;
+    padding-left: 8px;
+    font-size: 13px;
+}
+.board_miniroom {
+    flex:1;
+}
+.miniroom_box_img {
+    width:500px;
+    height:340px;
+}

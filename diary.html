@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2021 MINI HOMEPAGE</title>
+<link rel="stylesheet" href="./static/layout.css" />
+<link rel="stylesheet" href="./static/font.css" />
+<link rel="stylesheet" href="./static/home.css" />
+<link rel="stylesheet" href="./static/diary.css" />
+<script src="https://kit.fontawesome.com/392de8ecc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="bookcover">
+<div class="bookdot">
+    <div class="page">
+        <div class="container container_profile">
+            <div class="title profile_title">
+                TODAY&nbsp;<span class="color_magenta">216&nbsp;</span> | TOTAL 372
+            </div>
+            <div class="box profile_box">
+                <div class="profile_image">
+                    <img class="profile_image_img" src="static/images/profile.png" alt="프로필 사진"/>
+                </div>
+                <div class="profile_text">
+                    저는 송폴, 코뮤니티에서 모각코 대외활동을 하고 있는 대학생입니다. 
+                    방학 중에 코딩 실력을 키우고 무엇을 완성시키고 싶다라는 의미에서 
+                    함께하게 되었습니다. 여기 모두들의 화이팅 넘치는 모습과 항상 같이 
+                    해결해주시려고 도와주시는 모습에 더욱 더 열심히 하려고 노력하게 되는 것 같아요. 
+                    <br><br>진짜 여러분 모두 모각코하세요(*≧︶≦))
+                </div>
+                <div class="profile_end">
+                    <div class="dropdown_button">
+                        <div class="button_title">파도타기</div>
+                        <div class="triangle_down"></div>
+                    </div>
+                    <div class="dropdown_item">
+                        <a href="#">코뮤니티로 가기</a>
+                        <a href="#">인스타로 가기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container_board">
+            <div class="title board_title">
+                <div class="board_title_name">송폴's 미니홈피</div>
+                <div class="board_tilte_url">https://url주소/나중에입력</div>
+            </div>
+            <div class="box board_box">
+                <div class="diary_title">
+                    <div class="today_box">02/22<br/>MON</div>
+                    <div class="date_box">
+                        <div class="date">1</div>
+                        <div class="date">2</div>
+                        <div class="date">3</div>
+                        <div class="date">4</div>
+                        <div class="date">5</div>
+                        <div class="date color_blue">6</div>
+                        <div class="date color_red">7</div>
+                        <div class="date">8</div>
+                        <div class="date">9</div>
+                        <div class="date">10</div>
+                        <div class="date color_red">11</div>
+                        <div class="date color_red">12</div>
+                        <div class="date color_red">13</div>
+                        <div class="date color_red">14</div>
+                        <div class="date">15</div>
+                        <div class="date">16</div>
+                        <div class="date">17</div>
+                        <div class="date">18</div>
+                        <div class="date">19</div>
+                        <div class="date color_blue">20</div>
+                        <div class="date color_red">21</div>
+                        <div class="date">22</div>
+                        <div class="date">23</div>
+                        <div class="date">24</div>
+                        <div class="date">25</div>
+                        <div class="date">26</div>
+                        <div class="date color_blue">27</div>
+                        <div class="date color_red">28</div>
+                    </div>
+                </div>
+                <div class="diary_box">
+                    <div class="diary">
+                        <div class="diary_date">2021 / 02 / 22 / 월</div>
+                        <div class="diary_text">
+                            오늘은 정말 바빴다.<br/>해야될 거는 산더민데 시간은 없고 ㅠㅠ <br/>
+                            그래도 해보는 데까진 해보자 송폴아<br/>오늘도 화이팅 ! <br/>
+                        </div>
+                    </div>
+                    <div class="diary">
+                        <div class="diary_date">2021 / 02 / 19 / 금</div>
+                        <div class="diary_text">
+                            나는 유노윤호다...<br/>세상에서 가장 중요한 것은 열정이다....<br/>
+                            나에게 가장 해로운 벌레는 대충이다...<br/>
+                            <br/>난 지치지 않는다...
+                        </div>
+                    </div>
+                    <div class="diary">
+                        <div class="diary_date">2021 / 02 / 01 / 월</div>
+                        <div class="diary_text">
+                            드디어 첫 대외활동, 모각코에 지원했다.<br/>너무 떨린다.<br/>
+                            뭔가 매 달의 첫째날이면 뭔가를 시작해야겠다는 마음이 앞선다.<br/>
+                            남은 겨울방학을 알차게 보내야지 !<br/><br/>
+                            열심히 살자 송폴 !
+                        </div>
+                    </div>
+                    <div class="diary_secret">
+                        <button class="secret_button" onclick="getTextFile()">
+                        <i class="fas fa-user-lock"></i> 송폴의 비밀일기 보기
+                        </button>
+                    </div>
+                    <div class="diary" id="hidden_diary">
+                        <div class="diary_date">송폴의 비밀일기</div>
+                        <div class="diary_text" id="hidden_text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container_menu">
+            <div class="menu_title"></div>
+            <div class="menu_box">
+                <button class="menu_category"><a href="./home.html">홈</a></button>
+                <button class="menu_category"><a href="./diary.html">다이어리</a></button>
+                <button class="menu_category"><a href="./photo.html">사진첩</a></button>
+                <button class="menu_category"><a href="./visit.html">방명록</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function(event) {
+            processFile (event.target.files[0]);
+        };
+        input.click();
+    }
+    function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file,"utf-8");
+        reader.onload = function() {
+            document.getElementById("hidden_text").innerText = reader.result;
+            document.getElementById("hidden_diary").style.display = "block";
+        };
+    }
+</script>
+</body>
+</html>
